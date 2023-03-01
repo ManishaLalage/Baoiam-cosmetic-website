@@ -362,10 +362,10 @@ padding: 3rem 9%;
   left: 1rem;
   padding: .5rem 1.1rem;
   font-size: 1.1rem;
-  /* color: #fff; */
+  color: #fff;
     /* background-color: lavender; */
-
-   background-color: #8e44ad;
+background-color: #bd4ded;
+   /* background-color: #8e44ad; */
   z-index: 10;
 }
 
