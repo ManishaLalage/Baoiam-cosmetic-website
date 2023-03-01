@@ -430,7 +430,8 @@ padding: 3rem 9%;
 
 footer{
   /* position: fixed; */
-  background: black;
+  /* background: black; */
+   background-color: #43104c;
   width: 100%;
   bottom: 0;
   left: 0;
@@ -584,7 +585,8 @@ footer .content .link-boxes .box{
 }
 footer .bottom-details{
   width: 100%;
-  background: #0F0844;
+  /* background: #0F0844; */
+  background-color: black;
 }
 footer .bottom-details .bottom_text{
   max-width: 1250px;
