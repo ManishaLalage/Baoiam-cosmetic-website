@@ -12,112 +12,111 @@
   scroll-behavior: smooth; 
 }
 
-/*=============== TOP-HEADER ===============*/
 
- .top-nav {
-   background-color: #2ecc71;
-  width: 100%;
+.top-nav {
+ width: 100%;
 }
 
 .row-outer {
-  height: 40px;
-  width: 100%;
-  position: fixed;
-
-  background-color: #c883e6;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+ height: 40px;
+ width: 100%;
+ position: fixed;
+ background-color: #c883e6;
 }
 
 .container {
-  position: fixed;
+ position: fixed;
 }
 .animated-heading {
-  margin-left: 90px;
-  margin-top: 10px;
-
-  display: flex;
-  align-content: center;
-  justify-content: center;
+ margin-left: 90px;
+ margin-top: 10px;
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ /* background-color: #ed4dcd; */
 }
 
 span#words {
-  letter-spacing: 1px;
+ letter-spacing: 1px;
 
-  font-size: 18px;
-  color: black;
-  font-weight: 450;
+ font-size: 18px;
+ color: black;
+ font-weight: 450;
 }
 
 span#words:hover {
-  color: white;
-  font-weight: 600;
+ color: white;
+ font-weight: 600;
 } 
 
 /*=============== HEADER & NAV ===============*/
- .header-icons {
-  justify-content: center;
-  margin-top: -0.2%;
-  height: 50px;
-  margin-left: 55%;
-  padding: 0px 20px;
-  display: flex;
-  align-items: center;
+.header-icons {
+  /* background-color: #3bb451; */
+ justify-content: center;
+ margin-left: 55%;
+ padding: 10px 20px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
 }
 
 .header-icons ul {
-  width: 100%;
-  border-block-start-width: 2px solid white;
+ width: 100%;
+ border-block-start-width: 2px solid white;
 }
 
 .header-icons i {
-  width: 100%;
-  font-weight: 200;
-  border-left: 1px solid black;
-  padding: 0px 15px;
-  font-size: 17px;
-  color: black;
-  transition: all 0.4s ease;
+ width: 100%;
+ font-weight: 200;
+ border-left: 1px solid black;
+ padding: 0px 15px;
+ font-size: 17px;
+ color: black;
+ transition: all 0.4s ease;
 }
 
 .header-icons i span {
-  font-size: 13px;
-  margin-left: 10px;
+ font-size: 13px;
+ margin-left: 10px;
 }
 
 .header-icons i:hover {
-  transform: scale(1.2);
-  color: white;
+ transform: scale(1.2);
+ color: white;
 } 
 
 /****************** Navbar**************/
 
 header {
-  margin-top: auto;
-  top: 40px;
-  position: fixed;
-  width: 100%;
-  right: 0;
-  z-index: 1000;
-  justify-content: space-between;
-  background: transparent;
-  transition: all 0.4s ease;
+ position: fixed;
+ width: 100%;
+ right: 0;
+ z-index: 1000;
+ justify-content: space-between;
+ background: transparent;
+ transition: all 0.4s ease;
 }
 
 .logo img {
-  padding-top: 10%;
-  margin-bottom: -12%;
-  height: auto;
-  width: 120px;
-  left: 0;
+ padding-top: 10%;
+ margin-bottom: -12%;
+ height: auto;
+ width: 130px;
+ left: 0;
 }
 .menu-bar {
+margin-top: 2%;
   background-color: #ffffff;
-  height: 80px;
+  /* background-color: #0077B5; */
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
 }
-
 .menu-bar ul {
   list-style: none;
   display: flex;
@@ -164,6 +163,7 @@ header {
 .menu-bar ul li:hover .dropdown-menu {
   display: block;
   position: absolute;
+  background-color: #ffffff;
   left: 0;
   top: 100%;
 }
@@ -183,6 +183,8 @@ header {
 }
 
 .dropdown-menu ul li:hover .dropdown-menu-1 {
+  background-color: #ffffff;
+
   display: block;
   position: absolute;
   left: 150px;
@@ -258,11 +260,10 @@ header {
   
   }
   
-  .skin-para h1 {
-  
-  }
-  .specials:hover {
+   .specials:hover {
+    /* object-fit: cover; */
   transform: scale(1.05);
+  
   }
   
   .specials {
@@ -296,18 +297,21 @@ header {
   font-size: 20px;
   font-weight: 500;
   padding: 10px 15px;
+  color: black;
   }
   
  .subcontent #btnbg2 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 10px 15px;
+  color: black;
   }
   
   .subcontent #btnbg3 {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     padding: 10px 15px;
+    color: black;
   }
 
 
@@ -358,10 +362,10 @@ padding: 3rem 9%;
   left: 1rem;
   padding: .5rem 1.1rem;
   font-size: 1.1rem;
-  color: #fff;
+  /* color: #fff; */
     /* background-color: lavender; */
 
-    background-color: #8e44ad;
+   background-color: #8e44ad;
   z-index: 10;
 }
 
