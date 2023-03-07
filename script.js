@@ -1,5 +1,5 @@
 (function () {
-    var words = ["Lorem ipsum dolor sit, amet consectetur adipisicing elit."," Cum dignissimos error repellat nesciunt sequi illum aliquam.","UI/Unix,Developer,Youtube,Happy Person" ],
+    var words = ["Lorem ipsum dolor sit, amet consectetur adipisicing elit."," Cum dignissimos repellat nesciunt sequi illum aliquam.","UI/Unix,Developer,Youtube,Happy Person" ],
     i = 0;
     setInterval(function(){ $('#words').fadeOut(function(){
         $(this).html(words[(i = (i + 1) % words.length)]).fadeIn();
