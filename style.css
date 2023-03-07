@@ -137,6 +137,24 @@ margin-top: 2%;
   margin-left: 20%;
 }
 
+.navbar .openMenu {
+  color: black;
+  font-size: 2rem;
+  /* float: right;
+  right: 0; */
+  /* margin: 20px; */
+  display: none;
+  cursor: pointer;
+}
+.navbar .mainMenu .closeMenu {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+}
+
+
+
+
 .navbar ul li {
   padding: 10px 30px;
 }
@@ -797,3 +815,118 @@ footer .bottom-details .bottom_text{
     width:100%;
 }
 }
+
+
+
+
+
+
+
+
+
+/* Mobile View  */
+
+@media (max-width: 1380px) {
+
+  .header-icons{
+    display: none;
+  }
+  .navbar ul .search{
+    display: none;
+  }
+  .navbar ul .nav_btn{
+    display: none;
+  }
+  
+  .menu-bar ul li a {
+    font-weight: 660;
+    font-size: 27px;
+    /* text-decoration: none; */
+    color: black;
+  
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li #page{
+  
+    /* position: absolute; */
+    /* position: relative; */
+    /* align-items: center; */
+    /* display: block; */
+    /* background-color: #0077b5; */
+    /* left: 300px; */
+    /* display: none; */
+    /* visibility: hidden; */
+  }
+  
+  .menu-bar ul li a:hover {
+    color: white;
+  }
+  
+  
+  .navbar .mainMenu::before{
+    background-color: #0077b5;
+  }
+  
+    .navbar .mainMenu {
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* background: rgb(0, 0, 0); */
+      background-color: #c883e6;
+  
+      transition: top 1s ease 0s;
+      display: none;
+    }
+    .navbar .mainMenu .closeMenu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    .navbar .openMenu {
+      display: block;
+      position: absolute;
+      /* top: 50px; */
+      right: 50px
+      /* display: block; */
+      /* margin-right: -200px; */
+      /* float: right; */
+      /* background-color: #fce6e6; */
+    }
+    /* .navbar .mainMenu li a:hover {
+      background: none;
+      color: rgb(255, 123, 0);
+    } */
+    /* .icons i {
+      display: inline-block;
+      padding: 12px;
+    } */
+  }
+   
+  
+  
+  
+  
+  
+  @media (max-width: 673px) {
+  
+  span#words {
+  
+    font-size: 10px;
+  
+  }
+  
+  .menu-bar .logo img{
+    /* top:20px; */
+    /* margin-top: 10%; */
+    width: 20%;
+    margin-top: -10%;
+  }
+  }
